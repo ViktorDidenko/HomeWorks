@@ -1,0 +1,297 @@
+
+
+
+.wrapper{
+
+	/* margin: 0px 152px 0px 152px;  
+    padding: 0px;  */
+
+    width: 1002px;
+    height: 990px;
+    overflow:visible;  
+    position: absolute;
+    top: 0px;
+    right: 129px;
+    left: 151px;       
+    
+     background-color: #ffffff;  
+   
+    /* border: 2px  solid black; */
+    border-bottom: 2px solid black;
+      
+}
+
+.top_logo{
+
+    width: 999px;
+    height: 175px;
+    overflow:visible;  
+    position: relative;
+    top: 0px;
+    right: 0px;
+           
+    
+     
+    background: url("../img/top_logo.gif");
+   /* border: 2px solid #dbdbdb; */
+
+}
+
+.t_left{
+
+    width: 163px;
+    height: 16px;
+    overflow:visible;  
+    position: relative;
+    top: 108px;
+    right: -97px;
+    border: 0px solid red;
+    background: rba(255,255,255,0);
+
+    font-size: 12px;
+    color: #128aa7; 
+    font-family: Tahoma, Regular;
+    line-height: 1;
+
+
+}
+
+
+.t_right{
+
+	width: 132px;
+    height: 76px;
+    overflow:visible;  
+    position: relative;
+    top: -9px;
+    left: 841px;
+    border: 0px solid red;
+    background: rba(255,255,255,0);
+
+    font-size: 12px;
+    color: #128aa7; 
+    font-family: Tahoma, Regular;
+    line-height: 1;
+    text-shadow: 0px 0px 1px #aaa;
+
+}
+
+.links_right{
+
+	width: 330px;
+    height: 16px;
+    overflow:visible;  
+    position: relative;
+    top: 62px;
+    left: 647px;
+    border: 0px solid red;
+    background: rba(255,255,255,0);
+
+    font-size: 12px;
+    color: #128aa7; 
+    font-family: Tahoma, Regular;
+    line-height: 1;
+    text-shadow: 0px 0px 1px #aaa;
+
+
+}
+
+.links_right ul li{
+	float:left;
+}
+
+.links_right ul li a{
+	font-size: 10px;
+    color: #128aa7; 
+    font-family: Tahoma, Regular;
+    line-height: 1;
+    text-shadow: 0px 0px 1px #aaa;
+    padding-top: 0px;
+    padding-left:0px;
+	
+}
+
+.top_image{
+
+    width: 1002px;
+    height: 237px;
+    overflow:visible;  
+    position: relative;
+    top: 0px;
+    right: 0px;
+           
+    
+     
+    background: url("../img/top_image.gif");
+   /* border: 2px solid #dbdbdb; */
+
+}
+
+.information{
+
+    width: 211px;
+    height: 546px;
+    background: #edeef0;
+    border: 2px solid #c7cacf;
+    
+    float: left;
+
+    font-size: 14px;
+    color: #424c43; 
+    font-family: Tahoma, Regular;
+    line-height: 1;
+}
+
+.main_content{
+
+    width: 574px;
+    height: 550px;  
+    background: #edeef0;
+    border: 0px solid red;
+    float: left;    
+
+    font-size: 14pt;
+    color: #424c43; 
+    font-family: Tahoma, Regular;
+    line-height: 1;
+
+
+}
+
+.news{
+
+	width: 209px;
+    height: 546px;  
+    background: #edeef0;
+    border: 2px solid #c7cacf;
+    
+    float: right;
+
+    font-size: 14px;
+    color: #424c43; 
+    font-family: Tahoma, Regular;
+    line-height: 1;
+
+    overflow: visible;
+
+}
+
+body {
+
+background: url("../img/fone1.gif");
+
+}
+
+footer{
+position: relative;	
+top: 991px;
+left: 546px;
+clear: both;
+
+    font-size: 12px;
+    color: #edeef0; 
+    font-family: Tahoma, Regular;
+    line-height: 1;
+
+    padding: 6px;
+}
+
+/*------------------------------------*\
+	НАВИГАЦИЯ
+\*------------------------------------*/
+#nav{
+	float:left;
+	/*width:100%; */
+	list-style:none;
+	/*font-weight:bold;
+	margin-bottom:10px; */
+
+    width: 1002px;
+    height: 28px;
+    background: #323232;
+    border: 0px solid red;
+    position: relative;
+    
+    font-size: 14px;
+    color: #ffffff; 
+    font-family: Tahoma, Regular;
+    line-height: 1;
+    
+}
+#nav li{
+	float:left;
+	margin-right:0px; /* 10px*/
+	position:relative;
+	display:block;
+}
+#nav li a{
+	display:block;
+	padding:5px;
+	color:#ffffff;
+	background:#323232;
+	text-decoration:none;
+	
+	/*text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+/*	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px; */
+}
+#nav li a:hover{
+	color:#fff;
+	background:#6b0c36;
+	background:  #323232;                             /* rgba(107,12,54,0.75)  /* Выглядит полупрозрачным */
+	text-decoration:none;
+
+}
+
+/*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
+#nav ul{
+	list-style:none;   
+	position:absolute;
+	display: block;
+	left:56px;
+	/*left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+	opacity:0; /* Устанавливаем начальное состояние прозрачности */
+	-webkit-transition:0.5s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+}
+#nav ul li{
+	padding-top:1px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+	float:none;
+	background: #323232; /*url(dot.gif) */
+}
+#nav ul a{
+	white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+	display:block;
+}
+#nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+	left:56px; /* Приносим его обратно на экран, когда нужно  */
+	top:28px;
+
+	opacity:1;  /* Делаем непрозрачным */
+	-webkit-transition:0.5s;
+	
+}
+#nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+	background:#6b0c36;
+	background:#323232;                     /* rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
+	text-decoration:none;
+
+}
+#nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+	text-decoration:none;
+	-webkit-transition:-webkit-transform 0.075s linear;
+}
+#nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+	background:#323232;
+	background:rgba(51,51,51,0); /* Будет полупрозрачным */
+	text-decoration:none;
+
+	-moz-transform:scale(1.05);
+	-webkit-transform:scale(1.05); 
+}
+
+.icon{
+	font-size: 60%;
+    
+    /*display:block; */
+}

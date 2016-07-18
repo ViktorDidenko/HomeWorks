@@ -1,0 +1,173 @@
+
+
+
+.wrapper{
+
+	margin: 0px 152px 0px 152px;  
+    padding: 0px;  
+
+    width: 1064px;
+    height: 950px;
+    overflow:visible;         
+    
+    background: #ffffff; 
+    border: 2px solid #dbdbdb; 
+}
+
+.Main_logo{
+
+	margin: 50px 875px 42px 48px;
+	padding: 0px; 
+	background: none; 
+	border: 0px solid #dbdbdb;
+
+}
+
+.top_navigation{
+	margin: 0px 50px 41px 48px;
+	padding: 0px; 
+	background: #505050; 
+	border: 0px solid #dbdbdb;
+
+	width: 967px;
+    height: 40px;
+    overflow:visible;  
+
+}
+.table_punkt{
+	color: #ffffff;
+	font-family: Myriad Pro, Regular;
+	text-align: center;  /* выравнивание текста*/
+	font-size: 13.33pt;
+	line-height: 1;
+
+	margin: 1px 0px 0px 26px; /* вверху 20 справа 0 снизу 0 слева 0*/
+	padding: 10px;  /* 14 px iznachalno*/
+	background: #505050;
+}
+
+.link1{
+
+	color: #ffffff;
+	/*font-family: Times, normal;
+	text-align: left;  /* выравнивание текста*/
+	/* font-size: 140%;
+	line-height: 1.5; */
+	margin: 0px 0px 0px 0px;
+	padding:8px;
+	text-decoration: none;
+
+}
+
+.link1:hover { 
+   /* font-size: 24px; /* Размер шрифта */
+   /* font-weight: bold; /* Жирное начертание */
+   /* color: red; /* Цвет ссылки */
+  /*  text-decoration: blink; */
+    margin: 0px 0px 0px 0px; 
+    background: #393939; /* Цвет фона под ссылкой */ 
+    padding:8px;
+    text-decoration: none;
+   /* color: #ffe; /* Цвет ссылки */ 
+   }
+
+.left_menu{
+	color: #393939;
+	font-family: Myriad Pro, Regular;
+	text-align: left;  /* выравнивание текста*/
+	font-size: 13.33pt;
+	line-height: 1;
+
+	margin: 0px 775px 41px 48px;  
+    padding: 0px;           
+    
+    background: #ffffff; 
+    border: 2px solid #dbdbdb;
+ 
+  /*  width: 240px;
+    height: 239px;
+    overflow:visible; */
+
+}   
+
+.right_content{
+    margin: -350px 50px 0px 337px;  /* -350px 50px 341px 337px;*/
+    padding: 0px;           
+    width: 678px;
+    height: 399px;
+    overflow:auto;
+     
+    border: 2px solid #dbdbdb;
+    background: none;
+}
+
+.right_text{
+	margin: 0px 50px 0px 336px;  
+    padding: 0px;           
+    width: 678px;
+    height: 242px;
+    overflow:auto;
+     
+    border: 0px solid #dbdbdb;
+    background: none;
+
+}
+
+/*ul{
+	list-style-type: circle;
+}*/
+.left_menu_punkt{
+	
+
+	margin: 0px 0px 0px 0px;  
+    padding: 16px;   
+    width: 207px;  
+    border-bottom: 2px  solid #dbdbdb;
+  
+}
+.botom_navigation{
+	margin: 0px 50px 0px 50px;  /* -112px 50px 0px 48px;*/
+	padding: 0px; 
+	background: #e1e1e1; 
+	border: 0px solid #dbdbdb;
+
+	width: 967px;
+    height: 38px;
+    overflow:visible;
+
+}
+.table_p_bot{
+	color: #2c2c2c;
+	font-family: Open Sans, Regular;
+	text-align: center;  /* выравнивание текста*/
+	font-size: 13.33pt;
+	line-height: 1;
+
+	margin: 14px 0px 0px 26px; /* вверху 20 справа 0 снизу 0 слева 0*/
+	padding: 0px;
+	background: #e1e1e1;
+}
+.link2{
+
+	color: #2c2c2c;
+	/*font-family: Times, normal;
+	text-align: left;  /* выравнивание текста*/
+	/* font-size: 140%;
+	line-height: 1.5; */
+/*	margin: 0px 0px 0px 0px;
+	padding:14px; */
+	text-decoration: none;
+
+}
+
+.link2:hover { 
+   /* font-size: 24px; /* Размер шрифта */
+   /* font-weight: bold; /* Жирное начертание */
+   /* color: red; /* Цвет ссылки */
+  /*  text-decoration: blink; */
+    margin: 0px 0px 0px 0px; 
+   /* background: #393939; /* Цвет фона под ссылкой */ 
+   /* padding:14px; */
+    text-decoration: none;
+   /* color: #ffe; /* Цвет ссылки */ 
+   }
