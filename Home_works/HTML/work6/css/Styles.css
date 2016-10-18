@@ -2,8 +2,9 @@
 
 .wrapper{
 
-	width:auto;
-	height:auto;
+	width:913px;
+	height:200px;
+    margin: 0 auto;
 	position: absolute; 
 	top: 0px;
 	left: 0px;
@@ -33,16 +34,193 @@
     border: 1px solid black;
 }
 
+.telephones{
+
+    position: relative;
+    margin-top: 16px;
+    padding-left: 31px;
+    color: #5e696d;
+    font-size: 19px;
+    font-family: "Arial", sans-serif;
+    display: inline-block;
+}
+
+.telephones:before{
+
+    position: absolute;
+    content: "";
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url(../img/Phone.png) no-repeat 1px 1px, linear-gradient(to top, #236988, #0c3357);
+    border-radius: 11px;
+    left: 6px;
+    top: -3px;
+
+}
+
+
+.form-size{
+    width: 495px;
+    height: 27px;
+    background: linear-gradient(to top, #0c3357, #236988);
+    border-radius: 4px;
+    position: relative;
+    display: inline-block;
+    left: 6px;
+    top: -7px;
+    box-shadow: 3px 3px 11px -5px #000;
+}
+.form-size:before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 27px;
+    height: 27px;
+    background: url(../img/Zamok.png) no-repeat 1px 1px;
+    border-radius: 11px;
+    left: 6px;
+    top: 4px;
+}
+.text-field{
+    margin-top: 5px;
+    width: 106px;
+    height: 10px;
+    font-size: 11px;
+    padding-left: 5px;
+}
+.first-field{
+    margin-left: 26px;
+}
+#lastname{
+    margin-right: 4px;
+}
+.header-text{
+    color: white;
+    font-size: 11px;
+    display: inline-block;
+    font-family: Lucida Sans Unicode, Arial;
+    letter-spacing: -0.3px;
+}
+
+#header-text-two{
+    color: #bfbfbf;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 3px;
+    font-size: 12px;
+    border-bottom: 1px solid #bfbfbf;
+    letter-spacing: 0;
+}
+
+.icons{
+    width: 75px;
+    height: 19px;
+    border: 1px solid #c1c8cb;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 19px;
+}
+.icons-img-one{
+    margin-left: 9px;
+}
+.icons-img-two{
+    margin-left: 4px;
+}
+.icons-img-three{
+    margin-left: 5px;
+}
+
 .top_navigation{
 
-    width: 909px;
+   /* width: 909px;
     height: 31px;
     position: relative;
     top: 69px;
     left: 42px;
-    border: 1px solid black;
-    background-color: green;
+    border: 1px solid black; */
 
+    position: relative;
+    top: 69px;
+    left: 42px;
+    background-color: #101213; /*green; */
+    height: 34px;
+    width: 100%;
+    /* margin-top: 1px; */
+    border-radius: 8px;
+    color: white;
+    box-shadow: 3px 3px 11px -5px #000;
+
+}
+
+.header-menu{
+   /* height: 34px;
+    width: 100%;
+    /* background-color: #101213; */
+   /* margin-top: 1px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 3px 3px 11px -5px #000; */
+}
+.header-menu-point{
+    display: inline-block;
+    padding: 4px 18px 0 19px;
+    height: 21px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-family: Lucida Sans Unicode, Arial;
+    margin: -2px;
+}
+
+.header-menu-point-1{
+    margin-left: -5px;
+}
+.header-menu-point-2{
+    margin-left: -11px;
+}
+.header-menu-point-3{
+    margin-left: -15px;
+}
+.first-menu{
+    padding-left: 129px;
+    padding-top: 6px;
+    display: inline-block;
+}
+.header-menu-point:hover{
+    background: linear-gradient(to top, #0c3357, #236988);
+    border-radius: 13px;
+}
+.second-menu{
+    position: relative;
+    font-family: Lucida Sans Unicode, Arial;
+    display: inline-block;
+    font-size: 11px;
+    /* padding-left: 77px; */
+    top: -2px;
+    left: 1px;
+}
+.header-menu-spoint{
+    display: inline-block;
+    margin-right: 14px;
+}
+.second-menu:before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 21px;
+    height: 21px;
+    background: url(../img/cart.png) no-repeat 1px 1px;
+    left: 48px;
+}
+.blue-text{
+    font-size: 12px;
+    color: #0d5a8f;
+}
+.blue-text-right{
+    margin-left: 5px;
 }
 
 
